@@ -38,6 +38,18 @@ WonkyInk Gear 3
 WonkyInk Gear 5
 ```
 
+## Reference Gallery
+
+See example structure and future before/after comparisons:
+
+- [`examples/`](examples/)
+
+## Prompt Examples
+
+Short usage examples are available here:
+
+- [`prompts/examples.md`](prompts/examples.md)
+
 The gear already bundles background retention, scene richness, clumsiness, local completion limits, and text restraint.
 
 ## Core rules
