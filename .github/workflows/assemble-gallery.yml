@@ -21,8 +21,8 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p examples/reference-gallery
-          cat assets-base64/rainy-campus.part* | tr -d '\n' | base64 -d > examples/reference-gallery/rainy-campus.jpg
-          cat assets-base64/campus-trees.part* | tr -d '\n' | base64 -d > examples/reference-gallery/campus-trees.jpg
+          cat assets-base64/rainy-campus.part* | tr -d '\n' | base64 -d > examples/reference-gallery/rainy-campus.png
+          cat assets-base64/campus-trees.part* | tr -d '\n' | base64 -d > examples/reference-gallery/campus-trees.png
           rm -rf assets-base64
           rm -f .github/workflows/assemble-gallery.yml
 
