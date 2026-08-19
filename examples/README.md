@@ -1,15 +1,41 @@
 # WonkyInk Reference Gallery
 
-This directory is for before/after examples that show what WonkyInk is designed to do.
+This directory is for visual references and before/after examples that show what WonkyInk is designed to do.
 
 The gallery should make two things obvious:
 
 1. **WonkyInk is not a generic sketch filter.**
 2. **Gear changes scene richness, not drawing professionalism.**
 
-## Recommended structure
+## Official environment references
 
-For each source image, keep the original and several gear outputs:
+These references demonstrate the intended balance of dense scene observation, irregular hand-drawn contours, and deliberately low local finish.
+
+### Rainy Campus
+
+![Rainy Campus](reference-gallery/rainy-campus.png)
+
+Demonstrates:
+
+- strong environment retention
+- many repeated scene elements such as people, umbrellas, plants, and vehicles
+- dense semantic coverage without polished sketch rendering
+- lively black-pen marks and imperfect local construction
+
+### Campus Trees
+
+![Campus Trees](reference-gallery/campus-trees.png)
+
+Demonstrates:
+
+- layered foliage and architecture
+- high scene information density
+- organic, hand-guessed contour behavior
+- complex environment coverage without turning local objects into finished drawings
+
+## Recommended comparison structure
+
+For future source-image comparisons, keep the original and several gear outputs:
 
 ```text
 examples/
